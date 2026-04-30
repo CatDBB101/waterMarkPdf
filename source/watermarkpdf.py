@@ -148,7 +148,7 @@ class WatermarkApp:
         can.setFillAlpha(opacity / 100.0)
 
         # --- DYNAMIC FONT SCALING LOGIC ---
-        max_font_size = 120 
+        max_font_size = 80 
         page_diagonal = math.sqrt(width**2 + height**2)
         max_allowed_width = page_diagonal * 0.8 
 
